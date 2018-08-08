@@ -213,24 +213,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //スクレーピング処理の予定
         if checkflg == [] {
             suicaData = [
-                SuicaData(day: "2018/07/02", route: "711", price: "1", csvflg: false),
-                SuicaData(day: "2018/07/03", route: "家族市場", price: "2", csvflg: false),
-                SuicaData(day: "2018/07/04", route: "元気になろう", price: "3", csvflg: false),
-                SuicaData(day: "2018/07/05", route: "ちょっと立ち寄る", price: "4", csvflg: false),
-                SuicaData(day: "2018/07/06", route: "All100yen?", price: "5", csvflg: false),
-                SuicaData(day: "2018/07/09 09:00", route: "輪K", price: "6", csvflg: false),
-                SuicaData(day: "2018/07/10 09:00", route: "日々ザキヤマ", price: "7", csvflg: false),
-                SuicaData(day: "2018/07/11 09:00", route: "午前午後", price: "8", csvflg: false),
-                SuicaData(day: "2018/07/12 09:00", route: "POP", price: "9", csvflg: false),
-                SuicaData(day: "2018/06/02", route: "711", price: "1", csvflg: false),
-                SuicaData(day: "2018/06/03", route: "家族市場", price: "2", csvflg: false),
-                SuicaData(day: "2018/06/04", route: "元気になろう", price: "3", csvflg: false),
-                SuicaData(day: "2018/06/05", route: "ちょっと立ち寄る", price: "4", csvflg: false),
-                SuicaData(day: "2018/05/06", route: "All100yen?", price: "5", csvflg: false),
-                SuicaData(day: "2018/05/09 09:00", route: "輪K", price: "6", csvflg: false),
-                SuicaData(day: "2018/05/10 09:00", route: "日々ザキヤマ", price: "7", csvflg: false),
-                SuicaData(day: "2018/05/11 09:00", route: "午前午後", price: "8", csvflg: false),
-                SuicaData(day: "2018/05/12 09:00", route: "POP", price: "9", csvflg: false)
+                SuicaData(day: "2018/07/02 08:23", route: "東京→新橋", price: "100円", csvflg: false),
+                SuicaData(day: "2018/07/03 08:59", route: "新橋→五反田", price: "223円", csvflg: false),
+                SuicaData(day: "2018/07/04 09:13", route: "渋谷→新宿", price: "332円", csvflg: false),
+                SuicaData(day: "2018/07/05 10:50", route: "新宿→渋谷", price: "544円", csvflg: false),
+                SuicaData(day: "2018/07/06 11:14", route: "大阪→京都", price: "5266円", csvflg: false),
+                SuicaData(day: "2018/07/09 16:40", route: "田町→西日暮里", price: "736円", csvflg: false),
+                SuicaData(day: "2018/07/10 18:20", route: "池袋→大塚", price: "742円", csvflg: false),
+                SuicaData(day: "2018/07/11 20:00", route: "大塚→品川", price: "832円", csvflg: false),
+                SuicaData(day: "2018/07/12 23:20", route: "上野→浜松町", price: "912円", csvflg: false),
+                SuicaData(day: "2018/06/02 12:22", route: "恵比寿→代々木", price: "211円", csvflg: false),
+                SuicaData(day: "2018/06/03 13:55", route: "巣鴨→目白", price: "222円", csvflg: false),
+                SuicaData(day: "2018/06/04 08:39", route: "高田馬場→原宿", price: "263円", csvflg: false),
+                SuicaData(day: "2018/06/05 09:21", route: "御徒町→神田", price: "446円", csvflg: false),
+                SuicaData(day: "2018/05/06 04:59", route: "日暮里→駒込", price: "286円", csvflg: false),
+                SuicaData(day: "2018/05/09 09:13", route: "有楽町→目黒", price: "426円", csvflg: false),
+                SuicaData(day: "2018/05/10 13:41", route: "五反田→大崎", price: "177円", csvflg: false),
+                SuicaData(day: "2018/05/11 15:39", route: "日暮里→上野", price: "368円", csvflg: false),
+                SuicaData(day: "2018/05/12 22:11", route: "秋葉原→東京", price: "319円", csvflg: false)
             ]
             
             //データ型にシリアライズして保存

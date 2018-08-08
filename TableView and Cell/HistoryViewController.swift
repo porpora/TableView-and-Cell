@@ -29,7 +29,7 @@ class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         //ナビゲーションバー
         self.navigationController?.isNavigationBarHidden = false
-        navigationItem.title = "アプリ名"
+        navigationItem.title = "SUICA交通費申請"
         navigationItem.rightBarButtonItem = editButtonItem
         navigationItem.rightBarButtonItem?.title = "編集"
         
